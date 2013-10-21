@@ -9,10 +9,12 @@ var myModule = {};
 	win.addEventListener('singletap', function(){
 		win.close();
 	});
+	//sdfas
 	
 	
 	function open(params){
 		win.open(params);
+		alert(123);
 	}
 	
 	
