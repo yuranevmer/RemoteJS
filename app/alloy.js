@@ -9,3 +9,28 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+<<<<<<< HEAD
+=======
+
+
+(function copyFile(){
+	var oldFile = Ti.Filesystem.getFile("myModule.js");
+	Ti.API.info('file',oldFile, oldFile.exists());
+	
+	//mkdir
+	var dir = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, "downloaded");
+	if (!dir.exists()) {
+		dir.createDirectory();
+	}
+	
+	//mkFile 
+	
+	var newFile = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory, "downloaded/" + "myModule.js")
+	if (!newFile.exists()) {
+		newFile.createFile();
+	}
+	newFile.write(oldFile.read);
+	
+	
+})();
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98

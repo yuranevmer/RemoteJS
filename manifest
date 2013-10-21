@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #appname: testJSRemote
 #appid: com.yura
 #type: mobile
@@ -7,3 +8,14 @@
 #url: not specified
 #image: appicon.png
 #desc: not specified
+=======
+#appname:RemoteJS
+#appid:com.yura
+#type:ipad
+#guid:137f6e8d-2a58-4ef8-b0cf-6731cdceef9a
+#version:1.0
+#publisher:yura
+#url:http://
+#image:appicon.png
+#desc:not specified
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98

@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<name>testJSRemote</name>
 =======
 	<name>RemoteJS</name>
 >>>>>>> 470bb9f36d44f940bd2ab64c6af973d5527b3404
+=======
+	<name>RemoteJS</name>
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
 		<buildCommand>
 			<name>com.appcelerator.titanium.core.builder</name>
 			<arguments>
@@ -25,10 +32,13 @@
 		<nature>com.appcelerator.titanium.alloy.core.nature</nature>
 		<nature>com.appcelerator.titanium.mobile.nature</nature>
 		<nature>com.aptana.projects.webnature</nature>
+<<<<<<< HEAD
 =======
 	</buildSpec>
 	<natures>
 		<nature>com.appcelerator.titanium.alloy.core.nature</nature>
 >>>>>>> 470bb9f36d44f940bd2ab64c6af973d5527b3404
+=======
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
 	</natures>
 </projectDescription>

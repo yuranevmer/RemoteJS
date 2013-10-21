@@ -1,12 +1,25 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
 .DS_Store
 build.log
 build
 npm-debug.log
 tmp
 .map
+<<<<<<< HEAD
 =======
 # Build folder and log file
 build/
 build.log
 >>>>>>> 470bb9f36d44f940bd2ab64c6af973d5527b3404
+=======
+mobile/Resources
+*.prefs
+*.xcuserstate
+
+*.xcworkspacedata
+
+*.sw?
+>>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
