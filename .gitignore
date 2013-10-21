@@ -1,4 +1,3 @@
-
 .DS_Store
 build.log
 build
@@ -6,11 +5,11 @@ npm-debug.log
 tmp
 .map
 
-mobile/Resources
+Resources
 *.prefs
 *.xcuserstate
 
 *.xcworkspacedata
 
 *.sw?
-
+Resources/alloy.js
