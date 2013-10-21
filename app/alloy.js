@@ -9,8 +9,6 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-<<<<<<< HEAD
-=======
 
 
 (function copyFile(){
@@ -33,4 +31,3 @@
 	
 	
 })();
->>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
