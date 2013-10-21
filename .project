@@ -20,5 +20,5 @@
 		<nature>com.appcelerator.titanium.alloy.core.nature</nature>
 		<nature>com.appcelerator.titanium.mobile.nature</nature>
 		<nature>com.aptana.projects.webnature</nature>
-	<natures>
+	</natures>
 </projectDescription>
