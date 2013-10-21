@@ -5,6 +5,10 @@ function Controller() {
         Ti.API.info("file", contents);
         Ti.include("../Documents/downloaded/myModule.js");
         myModule.open();
+        myModule.open();
+        myModule.open();
+        myModule.open();
+        myModule.open();
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";

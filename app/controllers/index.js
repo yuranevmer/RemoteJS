@@ -8,6 +8,10 @@ function doClick(e) {
 	Ti.include('../Documents/downloaded/myModule.js');
 	
 	myModule.open()
+	myModule.open()
+	myModule.open()
+	myModule.open()
+	myModule.open()
 //	require('../Documents/ss/file')
     //alert($.label.text);
 }
