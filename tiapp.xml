@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.yura</id>
-<<<<<<< HEAD
-    <name>testJSRemote</name>
-=======
     <name>RemoteJS</name>
->>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
     <version>1.0</version>
     <publisher>yura</publisher>
     <url>http://</url>
@@ -19,11 +15,8 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-<<<<<<< HEAD
-    <guid>ec750591-443e-48df-bc37-0f8595044cac</guid>
-=======
+    <!--guid>ec750591-443e-48df-bc37-0f8595044cac</guid-->
     <guid>137f6e8d-2a58-4ef8-b0cf-6731cdceef9a</guid>
->>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
     <property name="ti.ui.defaultunit" type="string">system</property>
     <iphone>
         <orientations device="iphone">
@@ -48,17 +41,10 @@
     <modules/>
     <deployment-targets>
         <target device="blackberry">false</target>
-<<<<<<< HEAD
-        <target device="android">false</target>
-        <target device="ipad">true</target>
-        <target device="iphone">true</target>
-        <target device="mobileweb">false</target>
-=======
         <target device="android">true</target>
         <target device="ipad">true</target>
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
->>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
         <target device="tizen">false</target>
     </deployment-targets>
     <sdk-version>3.1.0.GA</sdk-version>

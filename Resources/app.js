@@ -1,7 +1,5 @@
 var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
 
-<<<<<<< HEAD
-=======
 (function() {
     var oldFile = Ti.Filesystem.getFile("myModule.js");
     Ti.API.info("file", oldFile, oldFile.exists());
@@ -12,5 +10,4 @@ var Alloy = require("alloy"), _ = Alloy._, Backbone = Alloy.Backbone;
     newFile.write(oldFile.read);
 })();
 
->>>>>>> 83b75ae7b8a56e74fae6f064f00276260a8dfb98
 Alloy.createController("index");
