@@ -9,9 +9,6 @@ function doClick(e) {
 	
 	myModule.open()
 	myModule.open()
-	myModule.open()
-	myModule.open()
-	myModule.open()
 //	require('../Documents/ss/file')
     //alert($.label.text);
 }
