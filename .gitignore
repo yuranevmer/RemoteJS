@@ -4,3 +4,10 @@ build
 npm-debug.log
 tmp
 .map
+mobile/Resources
+*.prefs
+*.xcuserstate
+
+*.xcworkspacedata
+
+*.sw?
