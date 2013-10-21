@@ -1,0 +1,44 @@
+'#tableHeader' : { 
+	touchEnabled : false,
+	top : 0,
+	height : 60,
+	visible : true,
+	backgroundColor : '#d9dce0'
+},
+'#arrow' : {
+	touchEnabled : false,
+    backgroundImage : WPATH("images/whiteArrow.png"),
+    width : 22,
+    height : 48,
+    bottom : 4,
+    left : 23
+},
+'#status' : {
+	touchEnabled : false,
+	text : L('pull_to_refresh'),
+	bottom : 30,
+	height : 14,
+	color : "#666",
+	textAlign : "center",
+	font : {
+		fontSize : 14,
+	    fontWeight : "bold"
+	}
+},
+'#lastUpdated' : {
+    touchEnabled : false,
+    bottom : 15,
+    height : 12,
+    color : "#666",
+    textAlign : "center",
+    font : {
+        fontSize : 12
+    },	
+},
+'#ai' : {
+	left : 23,
+    bottom : 13,
+    width : 30,
+    height : 30,
+    style : Ti.UI.iPhone.ActivityIndicatorStyle.DARK	
+}

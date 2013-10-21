@@ -1,0 +1,5 @@
+<Alloy>
+    <ScrollView id="view">
+    	<View id="holder"></View>
+    </ScrollView>
+</Alloy>

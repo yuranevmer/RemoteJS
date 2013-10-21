@@ -14,7 +14,6 @@ var myModule = {};
 	
 	function open(params){
 		win.open(params);
-		alert(123);
 	}
 	
 	

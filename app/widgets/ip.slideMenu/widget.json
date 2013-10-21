@@ -1,0 +1,12 @@
+{
+	"id": "ip.slideMenu",
+	"description" : "Facebook app-like sliding menu",
+	"author": "Sergey Nosenko",
+	"version": "0.1",
+	"copyright":"Copyright (c) 2012 by iPublisher.com.ua",
+	"license":"Public Domain",
+	"min-alloy-version": "0.1.16",
+	"min-titanium-version":"2.0",
+	"tags":"view",
+	"platforms":"android,ios,mobileweb"
+}

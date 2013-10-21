@@ -1,0 +1,16 @@
+"#view": {
+	contentWidth : 'auto',
+	contentHeight : 'auto',
+	showVerticalScrollIndicator : true,
+	bottom: 0,
+},
+"#holder": {
+//	height: Ti.UI.SIZE,
+//	width: Ti.UI.SIZE,
+	
+},
+
+"#ptr": {
+height: 60,
+top:-60
+}

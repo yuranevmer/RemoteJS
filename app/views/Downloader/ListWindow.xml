@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" backgroundColor="green">
+		
+		<Require src="Downloader/list" id="list" top="50"></Require>
+	</Window>
+</Alloy>

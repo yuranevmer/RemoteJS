@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.8
+apiversion: 2
+description: My module
+author: Sergey Nosenko
+license: Commercial
+copyright: 2013 Sergey Nosenko
+
+
+# these should not be edited
+name: ti_advanced_list_view
+moduleid: ti.advanced.list.view
+guid: 50cffcb0-2ff2-4712-b413-d228b45bb4b8
+platform: android
+minsdk: 3.1.0.GA
+commonjs: true

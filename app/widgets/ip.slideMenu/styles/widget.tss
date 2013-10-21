@@ -1,0 +1,35 @@
+"#leftMenu": {
+	top: "0dp",
+	left: "0dp",
+	width: "240dp",
+	zIndex: "1"
+},
+"#win": {
+	left: "0dp",
+	zIndex: "10",
+	backgroundColor : 'white',
+},
+"#innerwin": {
+	left : "0",
+	zIndex : "10"
+},
+'#tableView' : {
+    rowHeight: "44dp",
+    backgroundColor: "#53577b",
+    allowSelection: false,
+    separatorColor: 'transparent'
+},
+'#shadow' : {
+    backgroundImage: WPATH("shadow.png"),
+    opacity: 0.5
+}
+'#clickKiller' : {
+    width : '100%',
+    height : '100%',
+    backgroundColor : 'transparent',
+    visible: false,
+    zIndex : 50,
+    bubbleParent: false,
+    id : "clickKiller"
+
+}

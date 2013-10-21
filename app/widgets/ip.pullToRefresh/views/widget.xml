@@ -1,0 +1,8 @@
+<Alloy>
+	<View id='tableHeader'>
+		<View id='arrow'></View>
+		<Label id='status'></Label>
+		<Label id='lastUpdated'></Label>
+		<ActivityIndicator id='ai'></ActivityIndicator>
+	</View>
+</Alloy>
