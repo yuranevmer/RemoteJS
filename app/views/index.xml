@@ -1,6 +1,11 @@
 <Alloy>
 	<TabGroup backgroundColor="white" >
 		<Tab id="tab1" title="111">
+			<Window>
+				<Label text="label" onSingletap="doClick"/>
+			</Window>
+		</Tab>
+		<Tab id="tab2" title="List">
 			<Require src="Downloader/ListWindow"></Require>
 		</Tab>
 	</TabGroup>

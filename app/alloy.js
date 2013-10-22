@@ -11,6 +11,7 @@
 // Alloy.Globals.someGlobalFunction = function(){};
 
 
+
 (function copyFile(){
 	var oldFile = Ti.Filesystem.getFile("myModule.js");
 	Ti.API.info('file',oldFile, oldFile.exists());

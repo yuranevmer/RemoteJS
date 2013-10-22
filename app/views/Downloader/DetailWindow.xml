@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="root" class="container">
+		<Label top="100" text="info" id="info"/>
+		<Button top="150" onClick="download" title="download" id="downloadButton"/>
+		<Button top="200" onClick="start" title="start" id="startButton"/>
+	</Window>
+</Alloy>

@@ -44,6 +44,7 @@
         <module platform="iphone">ti.draggable</module>
         <module platform="android">ti.draggable</module>
         <module platform="iphone">ti.advanceddatabase</module>
+        <module platform="iphone">ti.compression</module>
     </modules>
     <deployment-targets>
         <target device="blackberry">false</target>

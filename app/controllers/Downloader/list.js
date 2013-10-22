@@ -30,13 +30,9 @@ var options = {
 	clickFunc : function(e) {
 		Ti.API.info('!!!!',e);
 		var itemType = e.full_data.item_type
-		if (itemType === "article") {
-			Alloy.Globals.openWindow('article/article',{id: e.full_data.id});
-		} else if (itemType === "gallery"){
-			Alloy.Globals.openWindow('article/gallery',{id: e.full_data.id});
-		} else if (itemType === "video") {
-			Alloy.Globals.openWindow('video/video',{id: e.full_data.id});
-		}
+		var detailWindow = Alloy.createController("Downloader/DetailWindow",{data:e.full_data}).getView();
+		Ti.App.tabGroup.activeTab.open(detailWindow, {animated:true});
+	
 	}
 };
 var listView = Alloy.createWidget('ip.advancedListView', 'widget', options);

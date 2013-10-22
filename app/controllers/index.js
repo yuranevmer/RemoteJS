@@ -1,15 +1,13 @@
 //include exports = myModule
-Ti.include('../Documents/downloaded/myModule.js');
+/*var MyModule =*/ Ti.include('../Documents/downloaded/myModule.js');
 
-
+Ti.App.tabGroup = $.index;
 
 
 
 function doClick(e) {
 	
-	
-	
-	myModule.open()
+	myModule = new MyModule();
 	myModule.open()
 //	require('../Documents/ss/file')
     //alert($.label.text);
